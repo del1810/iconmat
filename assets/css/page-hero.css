@@ -1,0 +1,112 @@
+/* ============================================================
+   PAGE-HERO.CSS — Inner Page Banner Hero (reused on all sub-pages)
+   ============================================================ */
+
+#page-hero {
+    position: relative;
+    padding: 6rem 0 3.5rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    min-height: 280px;
+}
+
+.page-hero-bg {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.page-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(100deg,
+            rgba(8, 11, 16, 0.94) 40%,
+            rgba(8, 11, 16, 0.7) 100%);
+}
+
+.page-hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+.page-hero-breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    margin-bottom: 1rem;
+    font-family: var(--font-display);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.page-hero-breadcrumb a {
+    color: var(--text-muted);
+    transition: color var(--transition);
+}
+
+.page-hero-breadcrumb a:hover {
+    color: var(--primary);
+}
+
+.page-hero-breadcrumb .sep {
+    color: var(--primary);
+}
+
+.page-hero-tag {
+    font-family: var(--font-display);
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    color: var(--primary);
+    margin-bottom: 0.65rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.page-hero-tag::before {
+    content: '';
+    display: inline-block;
+    width: 1.5rem;
+    height: 2px;
+    background: var(--primary);
+}
+
+.page-hero-title {
+    font-family: var(--font-display);
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: var(--white);
+    margin-bottom: 0.75rem;
+    line-height: 1.0;
+}
+
+.page-hero-title span {
+    color: var(--primary);
+}
+
+.page-hero-desc {
+    font-size: 1rem;
+    color: var(--text-muted);
+    max-width: 540px;
+    line-height: 1.7;
+}
+
+/* ---- BOTTOM GEOMETRIC DECORATION ---- */
+#page-hero::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--primary), transparent);
+}

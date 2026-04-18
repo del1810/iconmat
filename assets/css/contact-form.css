@@ -1,0 +1,337 @@
+/* ============================================================
+   CONTACT-FORM.CSS — Contact Page Layout, Form, & Info
+   ============================================================ */
+
+#contact-section {
+    padding: var(--section-py) 0;
+    background: var(--bg);
+}
+
+.contact-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+}
+
+@media (min-width: 900px) {
+    .contact-layout {
+        grid-template-columns: 1fr 1.5fr;
+    }
+}
+
+/* ---- CONTACT INFO ---- */
+.contact-info-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    margin-top: 1.75rem;
+}
+
+.contact-info-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1.25rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    transition: border-color var(--transition);
+}
+
+.contact-info-item:hover {
+    border-color: var(--primary);
+}
+
+.contact-info-icon {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    background: rgba(240, 94, 14, 0.1);
+    border: 1px solid rgba(240, 94, 14, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-info-icon svg {
+    width: 18px;
+    height: 18px;
+    color: var(--primary);
+}
+
+.contact-info-body strong {
+    display: block;
+    font-family: var(--font-display);
+    font-size: 0.75rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--text-muted);
+    margin-bottom: 0.25rem;
+}
+
+.contact-info-body span,
+.contact-info-body a {
+    font-size: 0.9rem;
+    color: var(--text);
+    transition: color var(--transition);
+}
+
+.contact-info-body a:hover {
+    color: var(--primary);
+}
+
+.contact-social-row {
+    display: flex;
+    gap: 0.65rem;
+    margin-top: 1.5rem;
+}
+
+.contact-social-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: var(--font-display);
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--text-muted);
+    padding: 0.5rem 0.85rem;
+    border: 1px solid var(--border);
+    transition: all var(--transition);
+}
+
+.contact-social-link svg {
+    width: 14px;
+    height: 14px;
+}
+
+.contact-social-link:hover {
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+/* ---- CONTACT FORM ---- */
+.contact-form-wrap {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    padding: 2.5rem;
+}
+
+.contact-form-title {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 1.75rem;
+    color: var(--text);
+}
+
+.contact-form-title span {
+    color: var(--primary);
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+@media (min-width: 600px) {
+    .form-row.two-cols {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.form-label {
+    font-family: var(--font-display);
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--text-muted);
+}
+
+.form-input,
+.form-textarea,
+.form-select {
+    background: var(--bg);
+    border: 1px solid var(--border-light);
+    color: var(--text);
+    padding: 0.75rem 1rem;
+    font-size: 0.9rem;
+    font-family: var(--font-body);
+    transition: border-color var(--transition);
+    width: 100%;
+    outline: none;
+    border-radius: 0;
+    appearance: none;
+}
+
+.form-input:focus,
+.form-textarea:focus,
+.form-select:focus {
+    border-color: var(--primary);
+}
+
+.form-input::placeholder,
+.form-textarea::placeholder {
+    color: var(--text-muted);
+    opacity: 0.7;
+}
+
+.form-textarea {
+    resize: vertical;
+    min-height: 130px;
+}
+
+.form-checkbox-wrap {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.65rem;
+    margin-bottom: 1.5rem;
+}
+
+.form-checkbox {
+    width: 16px;
+    height: 16px;
+    margin-top: 2px;
+    accent-color: var(--primary);
+    flex-shrink: 0;
+}
+
+.form-checkbox-label {
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    line-height: 1.5;
+}
+
+.form-submit-row {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.form-success {
+    display: none;
+    color: #4caf50;
+    font-family: var(--font-display);
+    font-size: 0.82rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.form-success.show {
+    display: flex;
+}
+
+.form-success svg {
+    width: 16px;
+    height: 16px;
+}
+
+/* ---- VISION MISSION ---- */
+#vision-mission {
+    padding: var(--section-py) 0;
+    background: var(--bg-secondary);
+}
+
+.vm-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin-top: 2.5rem;
+}
+
+@media (min-width: 600px) {
+    .vm-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.vm-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    padding: 2.5rem 2rem;
+}
+
+.vm-card.vision {
+    border-top: 3px solid var(--primary);
+}
+
+.vm-card.mission {
+    border-top: 3px solid var(--accent);
+}
+
+.vm-icon {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(240, 94, 14, 0.1);
+}
+
+.vm-icon svg {
+    width: 22px;
+    height: 22px;
+    color: var(--primary);
+}
+
+.vm-card.mission .vm-icon {
+    background: rgba(245, 166, 35, 0.1);
+}
+
+.vm-card.mission .vm-icon svg {
+    color: var(--accent);
+}
+
+.vm-title {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.vm-card p {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    line-height: 1.7;
+}
+
+.vm-list {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.vm-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+    color: var(--text-muted);
+}
+
+.vm-list li::before {
+    content: '';
+    width: 14px;
+    height: 2px;
+    background: var(--accent);
+    flex-shrink: 0;
+    margin-top: 10px;
+}
