@@ -8,14 +8,14 @@ ICONMAT.data = {
 
     /* ---- NAV LINKS ---- */
     navLinks: [
-        { label: 'Home', href: '/index.html' },
-        { label: 'About', href: '/about.html' },
-        { label: 'Exhibitors', href: '/exhibitors.html' },
-        { label: 'Visitors', href: '/visitors.html' },
-        { label: 'Sponsors', href: '/sponsors.html' },
-        { label: 'Insights', href: '/insights.html' },
-        { label: 'Floor Plan', href: '/floor-plan.html' },
-        { label: 'Contact', href: '/contact.html' },
+        { label: 'Home', href: 'index.html' },
+        { label: 'About', href: 'about.html' },
+        { label: 'Exhibitors', href: 'exhibitors.html' },
+        { label: 'Visitors', href: 'visitors.html' },
+        { label: 'Sponsors', href: 'sponsors.html' },
+        { label: 'Insights', href: 'insights.html' },
+        { label: 'Floor Plan', href: 'floor-plan.html' },
+        { label: 'Contact', href: 'contact.html' },
     ],
 
     /* ---- FOOTER LINKS ---- */
@@ -23,31 +23,31 @@ ICONMAT.data = {
         {
             title: 'Quick Links',
             links: [
-                { label: 'About ICONMAT', href: '/about.html' },
-                { label: 'For Exhibitors', href: '/exhibitors.html' },
-                { label: 'For Visitors', href: '/visitors.html' },
-                { label: 'Become a Sponsor', href: '/sponsors.html' },
-                { label: 'Industry Insights', href: '/insights.html' },
+                { label: 'About ICONMAT', href: 'about.html' },
+                { label: 'For Exhibitors', href: 'exhibitors.html' },
+                { label: 'For Visitors', href: 'visitors.html' },
+                { label: 'Become a Sponsor', href: 'sponsors.html' },
+                { label: 'Industry Insights', href: 'insights.html' },
             ]
         },
         {
             title: 'Event Info',
             links: [
-                { label: 'Floor Plan', href: '/floor-plan.html' },
-                { label: 'Exhibition Zones', href: '/floor-plan.html' },
-                { label: 'Contact Us', href: '/contact.html' },
-                { label: 'Book Your Stall', href: '/exhibitors.html' },
-                { label: 'Register Free', href: '/visitors.html' },
+                { label: 'Floor Plan', href: 'floor-plan.html' },
+                { label: 'Exhibition Zones', href: 'floor-plan.html' },
+                { label: 'Contact Us', href: 'contact.html' },
+                { label: 'Book Your Stall', href: 'exhibitors.html' },
+                { label: 'Register Free', href: 'visitors.html' },
             ]
         },
         {
             title: 'Highlights',
             links: [
-                { label: 'Materials Pavilion', href: '/index.html#highlights' },
-                { label: 'B2B Meets', href: '/index.html#highlights' },
-                { label: 'Live Demos', href: '/index.html#highlights' },
-                { label: 'Green Zone', href: '/floor-plan.html' },
-                { label: 'Steel & Cement Zone', href: '/floor-plan.html' },
+                { label: 'Materials Pavilion', href: 'index.html#highlights' },
+                { label: 'B2B Meets', href: 'index.html#highlights' },
+                { label: 'Live Demos', href: 'index.html#highlights' },
+                { label: 'Green Zone', href: 'floor-plan.html' },
+                { label: 'Steel & Cement Zone', href: 'floor-plan.html' },
             ]
         },
     ],

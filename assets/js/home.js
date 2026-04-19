@@ -23,9 +23,9 @@
             <div class="hero-meta-item">${icon('zap')}<span>April 2027 &nbsp;&bull;&nbsp; 4 Days</span></div>
           </div>
           <div class="hero-actions">
-            <a href="/exhibitors.html" class="btn btn-primary btn-lg">Book Your Stall</a>
-            <a href="/visitors.html" class="btn btn-outline btn-lg">Register as Visitor</a>
-            <a href="/sponsors.html" class="btn btn-outline btn-lg">Become a Sponsor</a>
+            <a href="exhibitors.html" class="btn btn-primary btn-lg">Book Your Stall</a>
+            <a href="visitors.html" class="btn btn-outline btn-lg">Register as Visitor</a>
+            <a href="sponsors.html" class="btn btn-outline btn-lg">Become a Sponsor</a>
           </div>
         </div>
       </div>
@@ -89,8 +89,8 @@
               <div class="about-bullet">Enter and dominate the Tamil Nadu materials market</div>
             </div>
             <div style="margin-top:2rem;display:flex;gap:1rem;flex-wrap:wrap">
-              <a href="/about.html" class="btn btn-primary">Learn More</a>
-              <a href="/exhibitors.html" class="btn btn-outline-orange">Exhibit With Us</a>
+              <a href="about.html" class="btn btn-primary">Learn More</a>
+              <a href="exhibitors.html" class="btn btn-outline-orange">Exhibit With Us</a>
             </div>
           </div>
         </div>
@@ -193,8 +193,8 @@
               <h2 class="cta-title">Showcase Your Materials to<br>the <span>Right Buyers</span></h2>
             </div>
             <div class="cta-actions">
-              <a href="/exhibitors.html" class="btn btn-primary btn-lg">Book Your Stall Today</a>
-              <a href="/contact.html" class="btn btn-outline btn-lg">Contact Us</a>
+              <a href="exhibitors.html" class="btn btn-primary btn-lg">Book Your Stall Today</a>
+              <a href="contact.html" class="btn btn-outline btn-lg">Contact Us</a>
             </div>
           </div>
         </div>

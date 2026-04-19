@@ -48,8 +48,8 @@
           `).join('')}
         </div>
         <div style="text-align:center;margin-top:2.5rem;display:flex;gap:1rem;justify-content:center;flex-wrap:wrap">
-          <a href="/contact.html" class="btn btn-primary btn-lg">${icon('download')} Download Floor Plan</a>
-          <a href="/exhibitors.html" class="btn btn-outline-orange btn-lg">Book a Stall</a>
+          <a href="contact.html" class="btn btn-primary btn-lg">${icon('download')} Download Floor Plan</a>
+          <a href="exhibitors.html" class="btn btn-outline-orange btn-lg">Book a Stall</a>
         </div>
       </div>
     `;

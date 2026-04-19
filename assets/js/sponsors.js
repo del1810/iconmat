@@ -55,7 +55,7 @@
                   <li>${icon('check')}<span>${f}</span></li>
                 `).join('')}
               </ul>
-              <a href="/contact.html" class="btn ${tier.featured ? 'btn-primary' : 'btn-outline-orange'}" style="width:100%">Enquire Now</a>
+              <a href="contact.html" class="btn ${tier.featured ? 'btn-primary' : 'btn-outline-orange'}" style="width:100%">Enquire Now</a>
             </div>
           `).join('')}
         </div>
@@ -75,8 +75,8 @@
               <h2 class="cta-title">Request Our <span>Sponsorship Brochure</span></h2>
             </div>
             <div class="cta-actions">
-              <a href="/contact.html" class="btn btn-primary btn-lg">Request Brochure</a>
-              <a href="/contact.html" class="btn btn-outline btn-lg">Talk to Our Team</a>
+              <a href="contact.html" class="btn btn-primary btn-lg">Request Brochure</a>
+              <a href="contact.html" class="btn btn-outline btn-lg">Talk to Our Team</a>
             </div>
           </div>
         </div>

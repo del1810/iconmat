@@ -61,7 +61,7 @@
                 The future of construction lies in faster, stronger,<br>smarter, and <span style="color:var(--primary)">sustainable materials</span>
               </h2>
               <p style="color:var(--text-muted);max-width:540px;margin:0 auto 2rem">ICONMAT is the platform driving this transformation — connecting innovators with India's biggest infrastructure opportunity.</p>
-              <a href="/exhibitors.html" class="btn btn-primary btn-lg">Be Part of ICONMAT 2027</a>
+              <a href="exhibitors.html" class="btn btn-primary btn-lg">Be Part of ICONMAT 2027</a>
             </div>
           </div>
         </div>

@@ -95,8 +95,8 @@
               <h2 class="cta-title">Premium Booths<br>Filling <span>Fast</span></h2>
             </div>
             <div class="cta-actions">
-              <a href="/contact.html" class="btn btn-primary btn-lg">Book Your Stall</a>
-              <a href="/floor-plan.html" class="btn btn-outline btn-lg">View Floor Plan</a>
+              <a href="contact.html" class="btn btn-primary btn-lg">Book Your Stall</a>
+              <a href="floor-plan.html" class="btn btn-outline btn-lg">View Floor Plan</a>
             </div>
           </div>
         </div>

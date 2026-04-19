@@ -21,9 +21,9 @@
     /* Build nav links HTML */
     function buildNavLinks(isMobile = false) {
         return data.navLinks.map(link => {
-            const isActive = currentPath.endsWith(link.href.replace('/index.html', '/')) ||
+            const isActive = currentPath.endsWith(link.href.replace('index.html', '/')) ||
                 currentPath === link.href ||
-                (link.href === '/index.html' && (currentPath === '/' || currentPath === ''));
+                (link.href === 'index.html' && (currentPath === '/' || currentPath === ''));
             const activeClass = isActive ? ' active' : '';
             return `<a href="${link.href}" class="${activeClass}"${isMobile ? ' onclick="ICONMAT.closeMobileMenu()"' : ''}>${link.label}</a>`;
         }).join('');
@@ -66,7 +66,7 @@
     <nav id="main-nav">
       <div class="container">
         <div class="nav-inner">
-          <a href="/index.html" class="nav-logo" aria-label="ICONMAT Home">
+          <a href="index.html" class="nav-logo" aria-label="ICONMAT Home">
             <div class="logo-icon"><span>C</span></div>
             <div class="logo-text">
               <span class="logo-name">ICONMAT</span>
@@ -79,7 +79,7 @@
           </div>
 
           <div class="nav-cta">
-            <a href="/exhibitors.html" class="btn btn-primary btn-sm">Book Stall</a>
+            <a href="exhibitors.html" class="btn btn-primary btn-sm">Book Stall</a>
           </div>
 
           <button class="nav-hamburger" id="hamburger-btn" aria-label="Open menu" aria-expanded="false">
@@ -92,7 +92,7 @@
     <div id="mobile-menu" role="navigation" aria-label="Mobile navigation">
       ${buildNavLinks(true)}
       <div class="mobile-cta">
-        <a href="/exhibitors.html" class="btn btn-primary" onclick="ICONMAT.closeMobileMenu()">Book Your Stall</a>
+        <a href="exhibitors.html" class="btn btn-primary" onclick="ICONMAT.closeMobileMenu()">Book Your Stall</a>
       </div>
     </div>
   `;

@@ -34,7 +34,7 @@
 
           <!-- Brand Column -->
           <div class="footer-brand">
-            <a href="/index.html" class="footer-logo">
+            <a href="index.html" class="footer-logo">
               <div class="logo-icon"><span>C</span></div>
               <div class="logo-text">
                 <span class="logo-name">ICONMAT</span>
@@ -66,7 +66,7 @@
         <!-- Bottom Bar -->
         <div class="footer-bottom">
           <p class="footer-copy">
-            &copy; 2027 ICONMAT. Organized by <a href="/contact.html">${contact.organizer}</a>. All rights reserved.
+            &copy; 2027 ICONMAT. Organized by <a href="contact.html">${contact.organizer}</a>. All rights reserved.
           </p>
           <div class="footer-socials">
             <a href="${contact.social.linkedin}" aria-label="LinkedIn">${icons.linkedin}</a>
