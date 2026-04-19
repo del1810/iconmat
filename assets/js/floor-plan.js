@@ -57,7 +57,7 @@
 
     document.addEventListener('DOMContentLoaded', function () {
         renderZones();
-        renderMap();
+        // renderMap();
         if (ICONMAT.initReveal) ICONMAT.initReveal();
     });
 })();
