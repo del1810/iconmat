@@ -34,6 +34,8 @@
     align-items: center;
     gap: 0.65rem;
     margin-bottom: 1.25rem;
+    min-height: 200px;
+    width: 160px;
 }
 
 .footer-brand p {

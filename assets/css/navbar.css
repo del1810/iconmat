@@ -101,16 +101,16 @@
     position: sticky;
     top: 0;
     z-index: 1000;
-    background: rgba(8, 11, 16, 0.85);
+    background: var(--white);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border-bottom: 1px solid transparent;
     transition: background var(--transition), border-color var(--transition), padding var(--transition);
-    padding: 1.1rem 0;
+    /* padding: 1.1rem 0; */
 }
 
 #main-nav.scrolled {
-    background: rgba(8, 11, 16, 0.98);
+    background: var(--white);
     border-color: var(--border);
     padding: 0.7rem 0;
 }
@@ -131,13 +131,22 @@
 }
 
 .logo-icon {
-    width: 40px;
-    height: 40px;
-    background: var(--primary);
+    width: 100px;
+    height: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
     clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 8px 100%, 0 calc(100% - 8px));
+}
+
+/* Ensure logo image is visible and fits well */
+.logo-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    background: none;
+    /* filter: drop-shadow(0 0 2px #fff) drop-shadow(0 0 2px #000); */
 }
 
 .logo-icon span {
@@ -191,7 +200,7 @@
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.12em;
-    color: var(--text-muted);
+    color: #050709;
     padding: 0.45rem 0.65rem;
     transition: color var(--transition);
     position: relative;
@@ -211,7 +220,7 @@
 
 .nav-links a:hover,
 .nav-links a.active {
-    color: var(--text);
+    color: var(--primary);
 }
 
 .nav-links a:hover::after,
@@ -242,7 +251,7 @@
     width: 36px;
     height: 36px;
     border: 1px solid var(--border);
-    color: var(--text);
+    color: #050709;
     transition: all var(--transition);
     flex-shrink: 0;
 }

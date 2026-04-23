@@ -67,11 +67,12 @@
       <div class="container">
         <div class="nav-inner">
           <a href="index.html" class="nav-logo" aria-label="ICONMAT Home">
-            <div class="logo-icon"><span>C</span></div>
-            <div class="logo-text">
-              <span class="logo-name">ICONMAT</span>
-              <span class="logo-sub">Materials Expo</span>
+            <div class="logo-icon"><img
+              src="assets/images/Iconmat_Logo.png"
+              alt="Icon Mat Logo"
+            />
             </div>
+
           </a>
 
           <div class="nav-links">
