@@ -4,7 +4,7 @@
 
 #contact-section {
     padding: var(--section-py) 0;
-    background: var(--bg);
+    /* background: var(--bg); */
 }
 
 .contact-layout {
@@ -95,7 +95,7 @@
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    color: var(--text-muted);
+    color: var(--bg);
     padding: 0.5rem 0.85rem;
     border: 1px solid var(--border);
     transition: all var(--transition);
@@ -244,7 +244,7 @@
 /* ---- VISION MISSION ---- */
 #vision-mission {
     padding: var(--section-py) 0;
-    background: var(--bg-secondary);
+    /* background: var(--bg-secondary); */
 }
 
 .vm-grid {
@@ -261,7 +261,7 @@
 }
 
 .vm-card {
-    background: var(--bg-card);
+    background: var(--bg);
     border: 1px solid var(--border);
     padding: 2.5rem 2rem;
 }

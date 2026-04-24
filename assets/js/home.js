@@ -20,7 +20,7 @@
           <p class="hero-tagline">Where billion-dollar supply chains get forged. Powering the Foundation of Tomorrow's Infrastructure.</p>
           <div class="hero-meta">
             <div class="hero-meta-item">${icon('map-pin')}<span>Chennai Trade Centre, Tamil Nadu</span></div>
-            <div class="hero-meta-item">${icon('zap')}<span>April 2027 &nbsp;&bull;&nbsp; 4 Days</span></div>
+            <div class="hero-meta-item">${icon('zap')}<span>May 14, 15 & 16, 2027 &nbsp;</span></div>
           </div>
           <div class="hero-actions">
             <a href="exhibitors.html" class="btn btn-primary btn-lg">Book Your Stall</a>
@@ -106,7 +106,7 @@
       <div class="container">
         <div class="highlights-header text-center reveal">
           <span class="section-tag">Event Highlights</span>
-          <h2 class="section-title">What Awaits at <span>ICONMAT 2027</span></h2>
+          <h2 class="section-title dark">What Awaits at <span>ICONMAT 2027</span></h2>
           <p class="section-subtitle" style="margin:0 auto">Six world-class exhibition zones bringing together the entire construction materials ecosystem under one roof.</p>
         </div>
         <div class="highlights-grid">

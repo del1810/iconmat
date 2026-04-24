@@ -17,9 +17,9 @@
           <!-- Contact Info -->
           <div class="reveal-left">
             <span class="section-tag">Get in Touch</span>
-            <h2 class="section-title">Contact <span>Our Team</span></h2>
+            <h2 class="section-title dark">Contact <span>Our Team</span></h2>
             <div class="divider"></div>
-            <p>Have questions about exhibiting, sponsorship, or visiting ICONMAT 2027? Our team is ready to help you make the most of India's premier construction materials expo.</p>
+            <p class="dark">Have questions about exhibiting, sponsorship, or visiting ICONMAT 2027? Our team is ready to help you make the most of India's premier construction materials expo.</p>
 
             <div class="contact-info-list">
               <div class="contact-info-item">
@@ -60,7 +60,7 @@
           </div>
 
           <!-- Location Map -->
-          <div class="contact-map-wrap reveal-right" style="margin: auto 0; padding: 1.25rem; background: var(--bg-card); border-top: 3px solid var(--primary); box-shadow: 0 10px 30px rgba(0,0,0,0.4); text-align: center;">
+          <div class="contact-map-wrap reveal-right" style="margin: auto 0; padding: 1.25rem; background: var(--bg); border-top: 3px solid var(--primary); box-shadow: 0 10px 30px rgba(0,0,0,0.4); text-align: center;">
             <h3 style="font-family: var(--font-display); font-size: 1.1rem; text-transform: uppercase; font-weight: 800; color: var(--text); margin-bottom: 1rem; letter-spacing: 0.05em;">Find Us on <span style="color: var(--primary);">Google Maps</span></h3>
             <div style="border-radius: 8px; overflow: hidden; border: 1px solid var(--border-light);">
               <iframe 

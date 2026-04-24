@@ -13,7 +13,7 @@
       <div class="container">
         <div class="text-center reveal">
           <span class="section-tag">Exhibition Layout</span>
-          <h2 class="section-title">Exhibition <span>Zones</span></h2>
+          <h2 class="section-title dark">Exhibition <span>Zones</span></h2>
           <p class="section-subtitle" style="margin:0 auto">Four dedicated halls, each purpose-built to serve a specific segment of the construction materials industry.</p>
         </div>
         <div class="zones-grid">

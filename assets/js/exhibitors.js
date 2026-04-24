@@ -13,7 +13,7 @@
       <div class="container">
         <div class="text-center reveal">
           <span class="section-tag">What to Exhibit</span>
-          <h2 class="section-title">High-Demand <span>Product Categories</span></h2>
+          <h2 class="section-title dark">High-Demand <span>Product Categories</span></h2>
           <p class="section-subtitle" style="margin:0 auto">Tamil Nadu offers one of India's fastest-growing materials markets — every segment is in demand.</p>
         </div>
         <div class="categories-grid">
@@ -65,7 +65,7 @@
       <div class="container">
         <div class="text-center reveal">
           <span class="section-tag">Exhibitor Advantages</span>
-          <h2 class="section-title">Why <span>Exhibit</span> at ICONMAT</h2>
+          <h2 class="section-title dark">Why <span>Exhibit</span> at ICONMAT</h2>
           <p class="section-subtitle" style="margin:0 auto">Strategic exposure, direct buyer access, and measurable ROI — ICONMAT delivers on every front.</p>
         </div>
         <div class="benefits-grid">

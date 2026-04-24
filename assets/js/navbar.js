@@ -45,11 +45,11 @@
             </div>
             <div class="top-bar-item">
               ${icons.phone}
-              <a href="tel:+910000000000">+91 XXXXX XXXXX</a>
+              <a href="tel:+919500070800">+91 95000 70800</a>
             </div>
           </div>
           <div class="top-bar-right">
-            <span class="top-bar-date">April 2027</span>
+            <span class="top-bar-date">May 14, 15 & 16, 2027</span>
             <div class="top-bar-socials">
               <a href="#" aria-label="LinkedIn">${icons.linkedin}</a>
               <a href="#" aria-label="Instagram">${icons.instagram}</a>

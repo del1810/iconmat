@@ -392,7 +392,7 @@ ICONMAT.data = {
     contact: {
         organizer: 'Fair Connects India LLP',
         email: 'info@iconmat.in',
-        phone: '+91 XXXXX XXXXX',
+        phone: '+91 95000 70800',
         address: 'Chennai Trade Centre, Nandambakkam, Chennai, Tamil Nadu 600089',
         social: {
             linkedin: '#',

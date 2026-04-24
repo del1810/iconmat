@@ -61,7 +61,7 @@
 /* ---- SPONSOR TIERS ---- */
 #sponsor-tiers {
     padding: var(--section-py) 0;
-    background: var(--bg-secondary);
+    /* background: var(--bg-secondary); */
 }
 
 .tiers-grid {
@@ -236,7 +236,7 @@
 }
 
 .profile-card {
-    background: var(--bg-card);
+    /* background: var(--bg-card); */
     border: 1px solid var(--border);
     padding: 1.5rem 1.25rem;
     text-align: center;
@@ -275,7 +275,7 @@
 /* ---- EXPERIENCE SECTION ---- */
 #experience-section {
     padding: var(--section-py) 0;
-    background: var(--bg-secondary);
+    /* background: var(--bg-secondary); */
 }
 
 .experience-grid {
@@ -376,7 +376,7 @@
 /* ---- MARKET OUTLOOK ---- */
 #market-outlook {
     padding: var(--section-py) 0;
-    background: var(--bg-secondary);
+    /* background: var(--bg-secondary); */
 }
 
 .outlook-grid {
@@ -395,7 +395,7 @@
 /* ---- FLOOR PLAN ---- */
 #floor-plan-zones {
     padding: var(--section-py) 0;
-    background: var(--bg);
+    /* background: var(--bg); */
 }
 
 .zones-grid {

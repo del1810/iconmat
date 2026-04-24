@@ -13,7 +13,7 @@
       <div class="container">
         <div class="text-center reveal">
           <span class="section-tag">What You'll Discover</span>
-          <h2 class="section-title">What to <span>Experience</span> at ICONMAT</h2>
+          <h2 class="section-title dark">What to <span>Experience</span> at ICONMAT</h2>
           <p class="section-subtitle" style="margin:0 auto">ICONMAT is the ultimate sourcing destination for construction materials in South India.</p>
         </div>
         <div class="experience-grid">

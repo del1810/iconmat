@@ -137,7 +137,7 @@
 /* ---- WHY ICONMAT SECTION ---- */
 #why-section {
     padding: var(--section-py) 0;
-    background: var(--bg);
+    /* background: var(--bg); */
 }
 
 .why-grid {
@@ -175,7 +175,8 @@
     font-family: var(--font-display);
     font-size: 3rem;
     font-weight: 900;
-    color: rgba(240, 94, 14, 0.12);
+    /* color: rgba(240, 94, 14, 0.12); */
+    color: var(--primary);
     line-height: 1;
     margin-bottom: 0.75rem;
     -webkit-text-stroke: 1px rgba(240, 94, 14, 0.2);

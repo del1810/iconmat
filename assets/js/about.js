@@ -44,7 +44,7 @@
       <div class="container">
         <div class="text-center reveal">
           <span class="section-tag">Tamil Nadu Market</span>
-          <h2 class="section-title">Key <span>Growth Drivers</span></h2>
+          <h2 class="section-title dark">Key <span>Growth Drivers</span></h2>
           <p class="section-subtitle" style="margin:0 auto">Tamil Nadu stands as one of India's largest consumers of construction materials — here's why.</p>
         </div>
         <div class="benefits-grid" style="margin-top:2.5rem">
@@ -69,7 +69,7 @@
       <div class="container">
         <div class="text-center reveal">
           <span class="section-tag">Our Purpose</span>
-          <h2 class="section-title">Vision & <span>Mission</span></h2>
+          <h2 class="section-title dark">Vision & <span>Mission</span></h2>
         </div>
         <div class="vm-grid">
           <div class="vm-card vision reveal delay-1">

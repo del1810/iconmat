@@ -41,7 +41,7 @@
       <div class="container">
         <div class="text-center reveal">
           <span class="section-tag">2027–2030 Outlook</span>
-          <h2 class="section-title">Market <span>Outlook</span></h2>
+          <h2 class="section-title dark">Market <span>Outlook</span></h2>
           <p class="section-subtitle" style="margin:0 auto">India's construction materials market is set for strong double-digit growth till 2030, with Tamil Nadu among the top contributing states.</p>
         </div>
         <div class="outlook-grid">

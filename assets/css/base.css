@@ -16,8 +16,8 @@
 :root {
     /* Color Palette */
     --bg: #080b10;
-    --bg-secondary: #0d1219;
-    --bg-card: #111620;
+    --bg-secondary: #202b5f;
+    --bg-card: #202b5f;
     --bg-card-alt: #161d2a;
     --text: #e6edf5;
     --text-muted: #8292a8;
@@ -65,7 +65,7 @@ html {
 
 body {
     font-family: var(--font-body);
-    background-color: var(--bg);
+    background-color: var(--white);
     color: var(--text);
     line-height: 1.65;
     -webkit-font-smoothing: antialiased;
@@ -199,6 +199,10 @@ p {
     text-transform: uppercase;
     margin-bottom: 1.25rem;
     line-height: 1.05;
+}
+
+.dark {
+    color: var(--bg-secondary) !important;
 }
 
 .section-title span {
