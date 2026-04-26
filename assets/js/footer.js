@@ -67,7 +67,7 @@
         <!-- Bottom Bar -->
         <div class="footer-bottom">
           <p class="footer-copy">
-            &copy; 2027 ICONMAT. Organized by <a href="contact.html">${contact.organizer}</a>. All rights reserved.
+            &copy; 2027 ICONMAT. Organized by <a href="https://fairconnects.in/" target = "_blank">${contact.organizer}</a>. All rights reserved.
           </p>
           <div class="footer-socials">
             <a href="${contact.social.linkedin}" aria-label="LinkedIn">${icons.linkedin}</a>
