@@ -66,12 +66,13 @@
             </div>
             <div class="cta-actions">
               <a href="contact.html" class="btn btn-primary btn-lg">Register Now — Free</a>
-              <a href="floor-plan.html" class="btn btn-outline btn-lg">View Expo Map</a>
+             
             </div>
           </div>
         </div>
       </div>
     `;
+    //  <a href="floor-plan.html" class="btn btn-outline btn-lg">View Expo Map</a>
     }
 
     document.addEventListener('DOMContentLoaded', function () {
